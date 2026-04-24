@@ -68,11 +68,11 @@ services:
       JWT_REFRESH_CSRF_COOKIE_NAME: csrf_refresh_token
       JWT_ACCESS_COOKIE_NAME: access_token
       JWT_REFRESH_COOKIE_NAME: refresh_token
-      JWT_ACCESS_TOKEN_EXPIRE_MINUTES: 3
+      JWT_ACCESS_TOKEN_EXPIRE_MINUTES: 30
       JWT_REFRESH_TOKEN_EXPIRE_DAYS: 30
       DATABASE_URL: postgresql://user:password@postgres:5432/converter
       REDIS_URL: redis://default:default@redis:6379/0
-      CORS_ORIGINS: "[\"*\"]"
+      CORS_ORIGINS: "[\"converter.me\"]"
       SALT_ROUNDS: 18
       BACKEND_DOMAIN: converter.me
       FRONTEND_URL: https://converter.me
