@@ -1,0 +1,6 @@
+dns_server/
+volumes/
+converter
+.env
+*.crt
+*.key
